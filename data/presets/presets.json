@@ -6159,6 +6159,26 @@
             },
             "name": "Emergency Phone"
         },
+        "emergency/water_tank": {
+            "icon": "poi-fire-hydrant",
+            "fields": [
+                "name",
+                "operator",
+                "ref"
+            ],
+            "geometry": [
+                "point",
+                "vertex"
+            ],
+            "terms": [
+                "cistern",
+                "reservoir"
+            ],
+            "tags": {
+                "emergency": "water_tank"
+            },
+            "name": "Water Tank"
+        },
         "entrance": {
             "icon": "entrance-alt1",
             "geometry": [
